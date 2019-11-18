@@ -14,7 +14,7 @@ class MainActivity : Activity() {
         //是因为你需要在setContentView之后才可以调用 setRootViewFitsSystemWindows
 
         //当FitsSystemWindows设置 true 时，会在屏幕最上方预留出状态栏高度的 padding
-        StatusBarUtil.setRootViewFitsSystemWindows(this,true)
+        StatusBarUtil.setRootViewFitsSystemWindows(this,false)
 
         //设置状态栏透明
         StatusBarUtil.setTranslucentStatus(this);
